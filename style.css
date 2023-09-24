@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://i.imgur.com/3LCZTim.jpg');
+    background-attachment: fixed;  
+    background-size: cover; 
+    background-position: center center; 
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+/* NAVBAR/HEADER */
+
+nav {
+    background-color: rgb(255, 255, 255, 0.3);
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    padding-right: 20%;
+    padding-left: 20%;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+
+
+    /* padding-right: 7vh; */
+    /* padding-left: 10%; */
+}
+
+.navdiv  {
+
+    height: 3rem;
+    width: 100px;
+    max-width: 20rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem
+
+    
+}
+header {
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+nav div:nth-child(1) {
+    background-color: rgb(233, 118, 118);
+    font-size: 1rem;
+    border: 1px solid black
+}
+
+nav div:nth-child(1):hover {
+    animation: enlarge 2s ease forwards;
+}
+
+nav div:nth-child(2) {
+    background-color: rgb(233, 118, 118);
+    font-size: 1rem;
+    border: 1px solid black
+}
+
+nav div:nth-child(3) {
+    background-color: rgb(233, 118, 118);
+    font-size: 1rem;
+    border: 1px solid black;
+}
+
+
+/* HERO BLOCK */
+
+.hero-section {
+     padding-right: 15%;
+     padding-left: 9%;
+}
+.hero-block {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: center;
+   
+
+}
+
+.hero-block img {
+    flex-direction: column;
+    width: 20vh;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 0.5rem solid rgb(255, 127, 80, 0.2);
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    background-color: rgb(255, 127, 80, 0.2);
+    margin-top: 1vh;
+}
+
+.intro-para p {
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+    text-align: center;
+    padding-right: 30%;
+    padding-left: 17%;
+    margin-top: 0;
+
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 1vh;
+
+    font-size: 2rem;
+    padding-right: 8%;
+    padding-top: 10%;
+    
+}
+
+h2 u {
+    text-decoration: underline rgb(255, 127, 80);
+    text-decoration-thickness: 0.15em;
+    color: black;
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.tech-stack div {
+    background-color: rgb(255, 127, 80, 0.2);
+    height: 20vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* max-width: 580px; */
+}
+
+.tech-stack div p {
+    color: white;
+}
+
+#tech-img-1 {
+    width: 70%;
+    height: 13vh;
+    /* border: 0.3rem solid red;
+    border-radius: 50%; */
+}
+#tech-img-2 {
+    width: 70%;
+    height: 13vh;
+    /* border: 0.3rem solid red;
+    border-radius: 50%; */
+}
+/* #tech-img-3 {
+    width: 70%;
+    height: 13vh;
+    /* border: 0.3rem solid red;
+    border-radius: 50%; 
+} */
+/* #tech-img-4 {
+    width: 70%;
+    height: 13vh;
+    /* border: 0.3rem solid red;
+    border-radius: 50%; 
+} */
+
+/* FOOTER */
+
+footer div {
+    display: flex;
+    background-color: black;
+    height: 5vh;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding-right: 5%;
+}
+
+footer section {
+    display: flex;
+    background-color: black;
+    height: 5vh;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 6%;
+}
+
+#footer-buttons-1:hover {
+    color: #E88D67;
+    cursor: pointer;
+}
+
+#footer-buttons-2:hover {
+    color: #E88D67;
+    cursor: pointer;
+}
+
+#footer-buttons-3:hover {
+    color: #E88D67;
+    cursor: pointer;
+}
