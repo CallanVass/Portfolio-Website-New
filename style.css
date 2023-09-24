@@ -156,6 +156,7 @@ h1 {
     padding-right: 30%;
     padding-left: 26%;
     margin-top: 6rem;
+    font-size: 1.5rem;
 
 }
 
@@ -317,3 +318,64 @@ footer section {
     }
     
     }
+
+
+
+    /* CONNECT PAGE */
+
+    /* BODY */
+
+    .body-connect {
+    background-image: url('https://i.imgur.com/3LCZTim.jpg');
+    background-attachment: fixed;  
+    background-size: cover; 
+    background-position: center center; 
+    font-family: 'Nunito', sans-serif;
+    filter: brightness(90%);
+    }
+
+    /* NAV */
+
+    .navdiv-connect {
+    height: 3rem;
+    width: 100px;
+    max-width: 20rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+    }
+
+    #connect-1 {
+        background-color: rgba(9, 36, 9, 0.849);
+        font-size: 1rem;
+        border: 1px solid black
+    }
+    
+    #connect-1:hover {
+        animation: navbutton 1s forwards;
+    }
+    
+    #connect-2:hover {
+        animation: none;
+       
+    }
+    #connect-3:hover {
+        animation: navbutton 1s forwards;
+    }
+    
+    #connect-2 {
+        background-color: rgb(233, 118, 118);
+        font-size: 1rem;
+        border: 1px solid black;
+        
+    }
+    
+    #connect-3 {
+        background-color: rgba(9, 36, 9, 0.849);
+        font-size: 1rem;
+        border: 1px solid black;
+        
+    }
+
