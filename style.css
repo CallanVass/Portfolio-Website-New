@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Nunito', sans-serif;
 }
 
 
@@ -101,15 +102,15 @@ nav div:nth-child(3):hover {
 /* HERO BLOCK */
 
 .quotes {
-    margin-bottom: 2rem;
     margin-top: 10rem;
     text-align: center;
     line-height: 2rem;
     font-size: 1.5rem;
     margin-left: 5%;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     border: 1px solid black;
     background-color: rgb(255, 127, 80, 0.2);
+    padding: 2rem;
 }
 .quotes span {
     display: content;
@@ -158,13 +159,10 @@ h1 {
 }
 
 .intro-para p {
-    display: flex;
-    align-items: center;   
-    justify-content: center;
     text-align: center;
-    padding-right: 30%;
-    padding-left: 26%;
+    margin: 0% 20%;
     margin-top: 6rem;
+    padding: 2rem;
     font-size: 1.5rem;
     background-color: rgb(255, 127, 80, 0.2);
     border: 1px solid black;
@@ -428,11 +426,17 @@ h2 u {
         padding-top: 10%;
         font-size: 1.5rem;
         margin: 0% 10%;
+        text-align: center;
     }
 
     .connect-intro p {
-        padding-bottom: 2rem;
+        text-align: center;
+        margin: 0% 15%;
+        margin-bottom: 0;
+        padding: 2rem;
+        font-size: 1.5rem;
         background-color: rgb(128, 0, 128, 0.2);
+        border: 1px solid black;
     }
 
 
@@ -463,7 +467,6 @@ h2 u {
         align-items: center;
         justify-content: center;
         flex-wrap: nowrap;
-        /* flex-direction: column; */
     }
 
     #icon-1 {
@@ -561,6 +564,7 @@ h2 u {
         position: relative;
         margin: 20px 0; 
         max-width: 70%;
+        margin-top: 2rem;
         margin-left: 14%
     }
 
@@ -576,3 +580,39 @@ h2 u {
         left: 0;
     }
 
+
+
+    /* BLOG PAGE */
+
+    /* BODY */
+.body-blog {
+    background-image: url('https://i.imgur.com/fRryp6g.jpg');
+    background-attachment: fixed;  
+    background-size: cover; 
+    background-position: center center; 
+    font-family: 'Nunito', sans-serif;
+    filter: brightness(90%);
+}
+
+.blog-h1 {
+    text-align: center;
+    text-decoration: underline rgba(82, 22, 160, 0.5);
+    margin-top: 8vh;
+    margin: 10% 15%;
+}
+
+
+
+/* FOOTER */
+
+#blog-footer {
+    display: flex;
+    margin-top: 90vh;
+    background-color: black;
+    height: 5vh;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 4vh
+}
