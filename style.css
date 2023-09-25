@@ -16,6 +16,13 @@
     /* margin-left: 5%; */
 }
 
+a {
+    text-decoration: none;
+    color: white;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
 /* ANIMATIONS */
 
 
@@ -35,8 +42,8 @@ nav {
     height: 10vh;
     width: 100%;
     display: flex;
-    padding-right: 25%;
-    padding-left: 18%;
+    /* padding-right: 25%;
+    padding-left: 25%; */
     justify-content: flex-end;
     align-items: center;
     position: static;
@@ -51,8 +58,9 @@ nav {
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin: 0.5rem;
-    margin-left: 7%;
+    /* margin: 0.5rem; */
+    margin-left: auto;
+    margin-left: auto;
     border-radius: 20%;
    
     
@@ -70,20 +78,20 @@ header {
 #home-1 {
     background-color: rgb(233, 118, 118);
     font-size: 1rem;
-    border: 1px solid black
+    /* border: 1px solid black */
 }
 
 #home-2 {
     background-image: linear-gradient(to right, rgb(226, 85, 85), rgba(31, 9, 36, 0.849));
     font-size: 1rem;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     
 }
 
 #home-3 {
     background-color: rgba(31, 9, 36, 0.849);
     font-size: 1rem;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     
 }
 
@@ -121,6 +129,7 @@ header {
 .hero-section {
      padding-right: 18%;
      padding-left: 14%;
+
 }
 .hero-block {
     height: 50vh;
@@ -147,6 +156,7 @@ h1 {
     /* background-color: rgb(255, 127, 80, 0.2); */
     margin-top: 1vh;
     text-decoration: underline rgb(255, 127, 80);
+    margin-bottom: 6rem;
     
 }
 
@@ -282,12 +292,23 @@ h2 u {
     cursor: pointer;
 }
 
+@media screen and (max-width: 580px) {
+    .quotes {
+        margin-top: 25rem;
+    }
+
+    .intro-para p {
+        margin-top: 20rem;
+    }
+}
 @media screen and (min-width: 580px) {
     nav {
     padding-left: 20%;
     padding-right: 10%;
 
     }
+
+    
 
     .intro-para {
         padding-right: 10%;
@@ -617,9 +638,8 @@ h2 u {
     display: flex; 
     justify-content: center;
     align-items: center;
-
-    
 }
+
 
 .blog-section {
     background-color: rgba(103, 53, 168, 0.3);
@@ -671,4 +691,12 @@ h2 u {
     justify-content: center;
     text-align: center;
     padding-top: 4vh
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 580px) {
+    .blog-section {
+        width: 80%
+    }
 }
