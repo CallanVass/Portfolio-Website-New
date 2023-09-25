@@ -194,7 +194,6 @@ h2 u {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* padding-right: 7%; */
     margin-right: 8%;
     margin-bottom: 1rem;
 }
@@ -228,7 +227,7 @@ h2 u {
 
 /* FOOTER */
 
-footer div {
+.html-footer-div {
     display: flex;
     background-color: black;
     height: 5vh;
@@ -238,7 +237,7 @@ footer div {
     padding-right: 5%;
 }
 
-footer section {
+.footer-section-index {
     display: flex;
     background-color: black;
     height: 5vh;
@@ -326,7 +325,7 @@ footer section {
     /* BODY */
 
     .body-connect {
-    background-image: url('https://i.imgur.com/3LCZTim.jpg');
+    background-image: url('https://i.imgur.com/wAJa7P2.jpg');
     background-attachment: fixed;  
     background-size: cover; 
     background-position: center center; 
@@ -345,6 +344,10 @@ footer section {
     justify-content: center;
     align-items: center;
     margin: 0.5rem;
+    }
+
+    .connect-nav {
+        position: static;
     }
 
     #connect-1 {
@@ -376,6 +379,160 @@ footer section {
         background-color: rgba(9, 36, 9, 0.849);
         font-size: 1rem;
         border: 1px solid black;
+        
+    }
+    /* INTRO */
+
+    .h1-connect {
+        margin-top: 5vh;
+        text-align: center;
+
+    }
+
+    .connect-intro {
+        text-align: center;
+        padding-bottom: 10%;
+        padding-top: 10%;
+        font-size: 1.5rem;
+    
+    }
+
+    .connect-intro p {
+        padding-bottom: 2rem;
+    }
+
+
+    /* ICON SECTION */
+
+    .icon-section {
+        background-color:rgb(255, 255, 255, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+
+    .icon-section img {
+        border-radius: 50%;
+        width: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* flex-direction: column; */
+        /* max-width: 50%; */
+    }
+
+    .icon-section div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        /* flex-direction: column; */
+    }
+
+    #icon-1 {
+ 
+    }
+
+    /* RESUME SECTION */
+
+    .resume-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .connect-h2 {
+        text-align: center;
+    }
+
+    /* FOOTER */
+
+    .connect-footer {
+    display: flex;
+    margin-top: 90vh;
+    background-color: black;
+    height: 5vh;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 4vh
+    }
+
+    .footer-div {
+        height: 5vh;
+        background-color: black;
+        width: 100%;
+    }
+
+
+
+    /* .connect-footer-section {
+        display: flex;
+        background-color: black;
+        color: white;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+    } */
+
+    .footer-div-2 {
+        height: 5vh;
+        background-color: black;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-div-2 p {
+        display: inline-block;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 1vh;
+        margin-left: 2vh;
+        margin-right: 2vh;
+    }
+
+    /* MEDIA QUERIES FOR CONNECT PAGE */
+
+    @media (max-width: 630px) {
+        .icon-section div {
+            flex-wrap: wrap; 
+            display: flex;
+        
+        }
+    }
+
+    @media (min-width: 630px) {
+        .icon-section img {
+            m: 2rem;
+        
+        }
+    }
+
+    /* DIVIDER */
+
+    .divider {
+        position: relative;
+        margin: 20px 0; 
+        max-width: 70%;
+        margin-left: 14%
+    }
+
+    .divider::before {
+        content: "";
+        display: block;
+        height: 3px; 
+        transform: translateY(-50%);
+        background-color: white; 
+        position: absolute;
+        right: 0;
+        top: 50%;
+        left: 0;
+        
         
     }
 
