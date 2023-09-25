@@ -7,7 +7,7 @@
 
 
 .body-index {
-    background-image: url('https://i.imgur.com/3LCZTim.jpg');
+    background-image: url('https://i.imgur.com/0dXKJ7v.jpg');
     background-attachment: fixed;  
     background-size: cover; 
     background-position: center center; 
@@ -73,17 +73,6 @@ header {
     border: 1px solid black
 }
 
-nav div:nth-child(1):hover {
-    
-}
-
-nav div:nth-child(2):hover {
-    
-}
-nav div:nth-child(3):hover {
-   
-}
-
 #home-2 {
     background-image: linear-gradient(to right, rgb(226, 85, 85), rgba(31, 9, 36, 0.849));
     font-size: 1rem;
@@ -101,6 +90,9 @@ nav div:nth-child(3):hover {
 
 /* HERO BLOCK */
 
+.quote-line-break {
+    line-height: 5rem;
+}
 .quotes {
     margin-top: 10rem;
     text-align: center;
@@ -181,7 +173,6 @@ h2 {
 
 h2 u {
     text-decoration: underline rgb(255, 127, 80);
-    text-decoration-thickness: 0.15em;
     color: black;
 }
 
@@ -584,9 +575,24 @@ h2 u {
 
     /* BLOG PAGE */
 
+    /* NAVBAR */
+
+    #blog-1 {
+        background-color: rgba(31, 9, 36, 0.849);
+        font-size: 1rem;
+    }
+    #blog-2 {
+        background-image: linear-gradient(to right, rgba(31, 9, 36, 0.849), rgb(226, 85, 85));
+        font-size: 1rem;
+    }
+    #blog-3 {
+        background-color:rgb(226, 85, 85);
+        font-size: 1rem;
+    }
+
     /* BODY */
 .body-blog {
-    background-image: url('https://i.imgur.com/fRryp6g.jpg');
+    background-image: url('https://i.imgur.com/AtUhKEh.jpg');
     background-attachment: fixed;  
     background-size: cover; 
     background-position: center center; 
@@ -599,6 +605,37 @@ h2 u {
     text-decoration: underline rgba(82, 22, 160, 0.5);
     margin-top: 8vh;
     margin: 10% 15%;
+}
+
+.blog-intro-section {
+    height:  auto;
+    background-color: rgba(82, 22, 160, 0.3);
+    margin: 0% 7%;
+    font-size: 2rem;
+    margin-bottom: 10rem;
+    text-align: center;
+    display: flex;
+    
+}
+
+.blog-segment {
+    height: auto;
+    background-color: rgba(82, 22, 160, 0.3);
+    margin: 0% 13%;
+    font-size: 1.5rem;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-segment img {
+    height: 5rem;
+    width: 7rem;
+
+}
+
+.blog-text {
+    text-align: center;
 }
 
 
