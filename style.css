@@ -101,12 +101,15 @@ nav div:nth-child(3):hover {
 /* HERO BLOCK */
 
 .quotes {
-    padding-bottom: 2rem;
-    padding-top: 10rem;
+    margin-bottom: 2rem;
+    margin-top: 10rem;
     text-align: center;
     line-height: 2rem;
     font-size: 1.5rem;
     margin-left: 5%;
+    margin-bottom: 1.5rem;
+    border: 1px solid black;
+    background-color: rgb(255, 127, 80, 0.2);
 }
 .quotes span {
     display: content;
@@ -142,14 +145,16 @@ nav div:nth-child(3):hover {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    border: 0.5rem solid rgb(255, 127, 80, 0.2);
+    border: 0.5rem solid rgb(255, 127, 80, 0.5);
 }
 
 h1 {
     font-size: 3rem;
     text-align: center;
-    background-color: rgb(255, 127, 80, 0.2);
+    /* background-color: rgb(255, 127, 80, 0.2); */
     margin-top: 1vh;
+    text-decoration: underline rgb(255, 127, 80);
+    
 }
 
 .intro-para p {
@@ -161,6 +166,8 @@ h1 {
     padding-left: 26%;
     margin-top: 6rem;
     font-size: 1.5rem;
+    background-color: rgb(255, 127, 80, 0.2);
+    border: 1px solid black;
 
 }
 
@@ -231,25 +238,45 @@ h2 u {
 
 /* FOOTER */
 
-.html-footer-div {
+.index-footer {
     display: flex;
+    margin-top: 70vh;
     background-color: black;
     height: 5vh;
     color: white;
     align-items: center;
     justify-content: center;
-    padding-right: 5%;
-}
+    text-align: center;
+    padding-top: 4vh
+    }
 
-.footer-section-index {
-    display: flex;
-    background-color: black;
-    height: 5vh;
-    color: white;
-    align-items: center;
-    justify-content: space-evenly;
-    padding-right: 6%;
-}
+    .html-footer-div {
+        height: 5vh;
+        background-color: black;
+        width: 100%;
+    }
+
+
+
+
+    .html-footer-div-2 {
+        height: 7vh;
+        background-color: black;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .html-footer-div-2 p {
+        display: inline-block;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 1vh;
+        margin-left: 2vh;
+        margin-right: 2vh;
+    }
 
 #footer-buttons-1:hover {
     color: #E88D67;
@@ -391,6 +418,7 @@ h2 u {
     .h1-connect {
         margin-top: 5vh;
         text-align: center;
+        text-decoration: underline rgb(128, 0, 128, 0.5);
 
     }
 
@@ -400,12 +428,11 @@ h2 u {
         padding-top: 10%;
         font-size: 1.5rem;
         margin: 0% 10%;
-    
     }
 
     .connect-intro p {
         padding-bottom: 2rem;
-        background-color: rgb(255, 255, 255, 0.5);;
+        background-color: rgb(128, 0, 128, 0.2);
     }
 
 
@@ -426,8 +453,9 @@ h2 u {
         display: flex;
         align-items: center;
         justify-content: center;
-        /* flex-direction: column; */
-        /* max-width: 50%; */
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .icon-section div {
@@ -453,13 +481,14 @@ h2 u {
 
     .connect-h2 {
         text-align: center;
+        text-decoration: underline rgb(128, 0, 128, 0.5);
     }
 
     /* FOOTER */
 
     .connect-footer {
     display: flex;
-    margin-top: 90vh;
+    margin-top: 70vh;
     background-color: black;
     height: 5vh;
     color: white;
@@ -475,16 +504,6 @@ h2 u {
         width: 100%;
     }
 
-
-
-    /* .connect-footer-section {
-        display: flex;
-        background-color: black;
-        color: white;
-        align-items: center;
-        justify-content: space-between;
-        text-align: center;
-    } */
 
     .footer-div-2 {
         height: 5vh;
@@ -529,10 +548,7 @@ h2 u {
     }
 
     @media (min-width: 980px) {
-        .icon-section img {
-        
-        
-        }
+
         .connect-intro {
            margin: 0% 20%;
         }
