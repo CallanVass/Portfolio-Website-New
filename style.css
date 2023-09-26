@@ -239,7 +239,7 @@ h2 u {
 
 .index-footer {
     display: flex;
-    margin-top: 70vh;
+    margin-top: 25vh;
     background-color: black;
     height: 5vh;
     color: white;
@@ -457,21 +457,28 @@ h2 u {
     .icon-section {
         background-color:rgb(255, 255, 255, 0.5);
         display: flex;
+        width: 50%;
+        min-width: 190px;
         align-items: center;
         justify-content: center;
         flex-wrap: nowrap;
+        margin-right: auto;
+        margin-left: auto;
+        padding: auto;
     }
 
 
     .icon-section img {
         border-radius: 50%;
-        width: 20vh;
+        width: 15vh;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-left: 20px;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 10px;
         margin-bottom: 10px;
+        padding: auto
     }
 
     .icon-section div {
@@ -669,6 +676,15 @@ h2 u {
     justify-content: center;
 }
 
+.blog-section:hover {
+    background-color: rgba(82, 22, 160, 0.7);
+  }
+
+.a-blog {
+    color: black
+}
+
+
 .blog-section p {
     font-size: larger;
     padding-bottom: 2rem;
@@ -683,7 +699,7 @@ h2 u {
 
 #blog-footer {
     display: flex;
-    margin-top: 60vh;
+    margin-top: 25vh;
     background-color: black;
     height: 5vh;
     color: white;
@@ -765,7 +781,7 @@ h2 u {
     margin-top: 5rem;
 
   }
-  
+
   .aside-div{
     padding: 1rem;
     max-width: 30rem;
@@ -783,6 +799,30 @@ h2 u {
     text-align: center;
   }
 
+  .blog-section-aside {
+    background-color: rgba(160, 22, 45, 0.3);
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    font-size: x-large;
+    border: 4px solid rgba(160, 22, 45, 0.9);
+    margin-top: 1rem;
+  }
+
+  .blog-section-aside img {
+    height: 15vh;
+    max-width: 100%;
+    border: 4px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1rem;
+  }
+
+  
   h3 {
     text-align: center;
     padding: 1rem;
@@ -790,12 +830,48 @@ h2 u {
     font-size: 2rem;
   }
 
+  .a-blogpage {
+    text-decoration: underline rgba(160, 22, 45, 0.9);
+    padding-top: 2rem;
+    color: black;
+  }
+
+  .a-blogpage:hover {
+    
+  }
+
+  .blog-section-aside:hover {
+    background-color: rgba(160, 22, 45, 0.7);
+  }
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 800px) {
     aside {
-        display: none;
+
+    }
+    .blogpage-flexdiv {
+        display: block;
     }
 }
 
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+    width: 1rem;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f88f8f;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #921515;
+ 
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #bb2929;
+  }
+
+
+  /* INDIVIDUAL BLOGPAGES */
 
