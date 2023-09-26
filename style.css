@@ -474,6 +474,13 @@ h2 u {
         align-items: center;
         justify-content: center;
         text-align: center;
+      
+    }
+
+    .resume-section img {
+        height: 35vh;
+        width: 80%;
+        max-width: 300px;
     }
 
     .connect-h2 {
@@ -548,6 +555,11 @@ h2 u {
 
         .connect-intro {
            margin: 0% 20%;
+        }
+
+        .resume-section img {
+            max-width: 900px;
+            margin-right: 20%
         }
     }
 
