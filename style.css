@@ -658,6 +658,10 @@ h2 u {
     display: flex; 
     justify-content: center;
     align-items: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
 }
 
 /* GRAPHICAL & TEXT COMPONENT 4 */
