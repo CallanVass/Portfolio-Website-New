@@ -22,7 +22,7 @@ The site
 
 ### Screenshots
 
-**Please note that some screenshots show repitions of the background image in the page. This is due to image sizing, and the site does not look like this.**
+**Please note that some screenshots show repitions of the background image in the page. This is due to image sizing. The site does not look like this.**
 
 
 
