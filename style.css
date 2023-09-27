@@ -659,6 +659,7 @@ h2 u {
     justify-content: center;
     align-items: center;
 }
+
 /* GRAPHICAL & TEXT COMPONENT 4 */
 
 .blog-section {
@@ -668,7 +669,7 @@ h2 u {
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-    padding: 2rem 0;
+    padding: 2rem 2rem;
     border: 3px solid rgba(82, 22, 160, 0.7);
     margin-bottom: 3rem;
 }
@@ -696,6 +697,8 @@ h2 u {
 .blog-section p {
     font-size: larger;
     padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .blog-section h2 {
