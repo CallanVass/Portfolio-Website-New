@@ -18,7 +18,7 @@ The site
 
 ### Sitemap
 
-![Sitemap](sitemap.png)
+![Sitemap](docs/sitemap.png)
 
 ### Screenshots
 
