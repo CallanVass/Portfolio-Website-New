@@ -4,7 +4,7 @@
 
 [Github Repo Link](https://github.com/CallanVass/Portfolio-Website-New)
 
-[Presentation Link]()
+[Presentation Link](https://youtu.be/hdHcIfeGO-U)
 
 ## Description
 
