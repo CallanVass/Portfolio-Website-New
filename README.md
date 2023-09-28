@@ -12,7 +12,7 @@
 
 The purpose of my website to create a professional space that potential employers might visit to gain a speedy insight into my tech stack and provide an easy way for them to contact me if they so wish. It also gives me a place to store my projects, and, in a way, to provide me with a certain level of introspection. Oh, and to pass my assignment!
 
-#### Functionality / Features
+### Functionality / Features
 
 ##### NAVBAR
 
@@ -80,7 +80,7 @@ Each blog has its own individual page and content. The features are:
 
 **HOME:**
 
-![Home Page Screenshot](Docs/Callan-s-Home.png)
+![Home Page Screenshot](docs/Callan-s-Home.png)
 
 **CONNECT:**
 
