@@ -88,11 +88,11 @@ Each blog has its own individual page and content. The features are:
 
 **BLOG:**
 
-![Blog Page Screenshot](docs/Read-About-Callan.png)
+![Blog Page Screenshot](docs/Read-About-Callan-.png)
 
 **WRITING BLOG:**
 
-![Writing Blog Screenshot](docs/Learning-About-Callan.png)
+![Writing Blog Screenshot](docs/Learning-About-Callan-.png)
 
 **ANIMALS BLOG:**
 
