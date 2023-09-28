@@ -48,9 +48,27 @@ This page, like all the others, is designed to be responsive and therefore opera
 
 #### Connect
 
+The connect page serves as a medium for communicating with potential employers or teachers. It's key features are:
+
+- A div with linked icons to my Github, LinkedIn, and email address. Each one is sleek, black, and see-through in some way. Since the formatting for them is already completed, I can add or subtract the icons relatively easily
+- A section with my study history
+- A resume heading along with a small image of said resume. Either can be clicked and lead to a pdf of my resume
+- A responsive line break between the heading and the first paragraph
+
 #### Blog
 
+The blog section of the websiten naturally, contains all the personality. It's features are:
+
+- An introductory paragraph informing the user of the blogs below
+- A responsive line break to divide the introduction and the blog post divs
+- The blogs themselves, which are centered and each feature a related picture, paragraph, and publish date They also respong to being hovered over, which increases the opacity, indicating the div is hyperlinked to the user
+
 #### Blogpage 
+
+Each blog has its own individual page and content. The features are:
+
+- A main div, which includes the primary content of the page. Inside the div is a picture on the topic of the subject and the text for the blog
+-An aside which, depending on your mobile/desktop view, will either be below the main paragraph or to the right of it. It's a scrollable div which features the other blogposts, leading to easy navigation through the blogpages themselves
 
 ### Sitemap
 
@@ -59,6 +77,39 @@ This page, like all the others, is designed to be responsive and therefore opera
 ### Screenshots
 
 **Please note that some screenshots show repitions of the background image in the page. This is due to image sizing. The site does not look like this.**
+
+**HOME:**
+
+![Home Page Screenshot](Docs/Callan-s-Home.png)
+
+**CONNECT:**
+
+![Connect Page Screenshot](Docs/Connect-With-Callan.png)
+
+**BLOG:**
+
+![Blog Page Screenshot](Docs/Read-About-Callan.png)
+
+**WRITING BLOG:**
+
+![Writing Blog Screenshot](Docs/Learning-About-Callan.png)
+
+**ANIMALS BLOG:**
+
+![Animals Blog Screenshot](Docs/Animal-Blog.png)
+
+**SKATEBOARDING BLOG:**
+
+![Skateboarding Blog Screenshot](Docs/Skateboarding-Blog.png)
+
+**WEBSITE BLOG:**
+
+![Website Blog Screenshot](Docs/Building-Website-Blog.png)
+
+**MASSAGE BLOG:**
+
+![Massage Blog Screenshot](Docs/Massage-Blog.png)
+
 
 
 
@@ -71,4 +122,4 @@ Potential employers, teachers, possibly other students. People well-versed in te
 
 - HTML for markup 
 - CSS for stylesheets
-- Vercel for deployment.
+- Vercel for deployment
