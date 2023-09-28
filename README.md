@@ -32,11 +32,11 @@ The text of the second div is also animated to be pink when hovered over (origin
 
 Both divs are coloured to black and stretch 100% of the viewport width. 
 
-##### PAGES:
+### PAGES:
 
 The site features 4 main types of pages, each with an independent background image. These are:
 
-##### Home
+### Home
 
 The home section serves as a landing page for the site. Like all the other pages, it is colourful. However, the colours used in the home section are a very transparent orange, which suits the image behind. The features of the section are:
 
@@ -46,7 +46,7 @@ The home section serves as a landing page for the site. Like all the other pages
 
 This page, like all the others, is designed to be responsive and therefore operates at whichever viewport size necessary. Like the other pages, it was also designed with the "mobile first" mindset, and then built upwards from there.
 
-#### Connect
+### Connect
 
 The connect page serves as a medium for communicating with potential employers or teachers. It's key features are:
 
@@ -55,7 +55,7 @@ The connect page serves as a medium for communicating with potential employers o
 - A resume heading along with a small image of said resume. Either can be clicked and lead to a pdf of my resume
 - A responsive line break between the heading and the first paragraph
 
-#### Blog
+### Blog
 
 The blog section of the websiten naturally, contains all the personality. It's features are:
 
@@ -63,14 +63,14 @@ The blog section of the websiten naturally, contains all the personality. It's f
 - A responsive line break to divide the introduction and the blog post divs
 - The blogs themselves, which are centered and each feature a related picture, paragraph, and publish date They also respong to being hovered over, which increases the opacity, indicating the div is hyperlinked to the user
 
-#### Blogpage 
+### Blogpage 
 
 Each blog has its own individual page and content. The features are:
 
 - A main div, which includes the primary content of the page. Inside the div is a picture on the topic of the subject and the text for the blog
 -An aside which, depending on your mobile/desktop view, will either be below the main paragraph or to the right of it. It's a scrollable div which features the other blogposts, leading to easy navigation through the blogpages themselves
 
-### Sitemap
+## Sitemap
 
 ![Sitemap](docs/sitemap.png)
 
