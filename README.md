@@ -84,31 +84,31 @@ Each blog has its own individual page and content. The features are:
 
 **CONNECT:**
 
-![Connect Page Screenshot](Docs/Connect-With-Callan.png)
+![Connect Page Screenshot](docs/Connect-With-Callan.png)
 
 **BLOG:**
 
-![Blog Page Screenshot](Docs/Read-About-Callan.png)
+![Blog Page Screenshot](docs/Read-About-Callan.png)
 
 **WRITING BLOG:**
 
-![Writing Blog Screenshot](Docs/Learning-About-Callan.png)
+![Writing Blog Screenshot](docs/Learning-About-Callan.png)
 
 **ANIMALS BLOG:**
 
-![Animals Blog Screenshot](Docs/Animal-Blog.png)
+![Animals Blog Screenshot](docs/Animal-Blog.png)
 
 **SKATEBOARDING BLOG:**
 
-![Skateboarding Blog Screenshot](Docs/Skateboarding-Blog.png)
+![Skateboarding Blog Screenshot](docs/Skateboarding-Blog.png)
 
 **WEBSITE BLOG:**
 
-![Website Blog Screenshot](Docs/Building-Website-Blog.png)
+![Website Blog Screenshot](docs/Building-Website-Blog.png)
 
 **MASSAGE BLOG:**
 
-![Massage Blog Screenshot](Docs/Massage-Blog.png)
+![Massage Blog Screenshot](docs/Massage-Blog.png)
 
 
 
