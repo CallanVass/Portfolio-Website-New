@@ -6,7 +6,7 @@
 }
 
 .body-index {
-    background-image: url('https://i.imgur.com/0dXKJ7v.jpg');
+    background-image: url("docs/homepage-background.jpg");
     background-attachment: fixed;  
     background-size: cover; 
     background-position: center center; 
@@ -338,7 +338,7 @@ h2 u {
     /* BODY */
 
     .body-connect {
-    background-image: url('https://i.imgur.com/wAJa7P2.jpg');
+    background-image: url("docs/connect-background.jpeg");
     background-attachment: fixed;  
     background-size: cover; 
     background-position: center center; 
@@ -616,7 +616,7 @@ h2 u {
     /* BODY */
 
 .body-blog {
-    background-image: url('https://i.imgur.com/AtUhKEh.jpg');
+    background-image: url("docs/blog-background.jpeg");
     background-attachment: fixed;  
     background-size: cover; 
     background-position: center center; 
@@ -718,7 +718,7 @@ h2 u {
 /* BLOGPAGE */
 
 .body-blogpage {
-    background-image: url('https://i.imgur.com/qmIcKdf.jpg');
+    background-image: url("docs/blogpage-background.jpg");
     background-attachment: fixed;  
     background-size: cover; 
     background-position: center center; 
