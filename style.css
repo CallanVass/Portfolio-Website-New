@@ -586,33 +586,6 @@ h2 u {
 
     /* NAVBAR */
 
-    /* #blog-1 {
-        background-color: rgba(31, 9, 36, 0.849);
-        font-size: 1rem;
-    }
-
-    #blog-2 {
-        background-color: rgba(31, 9, 36, 0.849);
-        font-size: 1rem;
-    }
-
-    #blog-3 {
-        background-color:rgb(226, 85, 85);
-        font-size: 1rem;
-    }
-
-    #blog-2:hover {
-        background-color:rgb(226, 85, 85);
-        font-size: 1rem;
-        animation: navbutton-left 1s ease-in-out forwards;
-    }
-
-    #blog-1:hover {
-        background-color:rgb(226, 85, 85);
-        font-size: 1rem;
-        animation: navbutton-left 1s ease-in-out forwards;
-    } */
-
     .nav {
         height: 4rem;
         width: 100%;
